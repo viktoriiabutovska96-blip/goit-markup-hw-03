@@ -6,6 +6,32 @@ body {
         letter-spacing: 0.02em;
         background-color: #FFFFFF;
 }
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.container {
+    width: 1158px;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.header {
+    padding: 16px 8px;
+    border-bottom: 1px;
+    border-radius: 16px;
+}
+.nav-menu {
+    display: flex;
+    gap: 40px;
+    
+}
 .main-title {
         font-weight: 700;
         line-height: 1.07;
