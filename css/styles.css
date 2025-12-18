@@ -27,7 +27,7 @@ ul, ol {
     border-bottom: 1px;
     border-radius: 16px;
 }
-.nav-menu {
+.header-nav {
     display: flex;
     gap: 40px;
     
