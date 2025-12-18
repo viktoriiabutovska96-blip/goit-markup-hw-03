@@ -56,6 +56,13 @@ ul, ol {
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
+        width: 496px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
 }
 .section-team {
     background-color: #F4F4FD;
@@ -87,6 +94,7 @@ ul, ol {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 50px;
 }
 .section-team-list-item {
     background-color: #FFFFFF;
@@ -98,8 +106,6 @@ ul, ol {
 .section-features-list {
     display: flex;
     gap: 24px;
-    padding-left: ;
-    padding-right: ;
 }
 .section-features-list-item {
     width: calc(100%-72px) /4;
@@ -120,7 +126,6 @@ ul, ol {
 .section-team-list {
     display: flex;
     gap: 24px;
-    padding-left: 156px;
     width: calc(100%-72px) /4;
 }
 .section-team-list-item-title {
@@ -145,6 +150,7 @@ ul, ol {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 50px;
 }
 .section-portfolio {
     border-bottom: 1px mixed #E7E9FC;
@@ -156,10 +162,8 @@ ul, ol {
 .section-portfolio-list {
     display: flex;
     gap: 24px;
-    padding-left: 156px;
-    padding-right: 156px;
     flex-wrap: wrap;
-    width: calc(100%-120) /6;
+    width: calc(100%-120) /2;
 }
 .section-portfolio-list-item-title {
         font-size: 20px;
@@ -260,11 +264,13 @@ ul, ol {
         letter-spacing: 0.03em;
         text-decoration: none;
         text-transform: uppercase;
+        margin-bottom: 9px;
 }
 .footer-text {
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    width: 264px;
 }
 .section-features-list {
     list-style-type: none;
@@ -277,4 +283,8 @@ ul, ol {
 }
 ul {
     list-style-type: none;
+}
+img {
+    max-width: 100%;
+    display: block;
 }
