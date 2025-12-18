@@ -123,10 +123,6 @@ ul, ol {
     padding-left: 156px;
     width: calc(100%-72px) /4;
 }
-.section-portfolio-list-item {
-    width: 360px;
-    height: 420px;
-}
 .section-team-list-item-title {
         font-size: 20px;
         font-weight: 500;
@@ -149,6 +145,13 @@ ul, ol {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+}
+.section-portfolio {
+    border-bottom: 1px mixed #E7E9FC;
+}
+.section-portfolio-list-item {
+    width: 360px;
+    height: 420px;
 }
 .section-portfolio-list {
     display: flex;
