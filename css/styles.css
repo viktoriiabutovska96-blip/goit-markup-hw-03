@@ -119,6 +119,7 @@ ul, ol {
         letter-spacing: 0.02em;
         font-size: 20px;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .section-features-list-item-text {
         font-size: 16px;
@@ -185,6 +186,7 @@ ul, ol {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .section-portfolio-list-item-text {
         font-size: 16px;
