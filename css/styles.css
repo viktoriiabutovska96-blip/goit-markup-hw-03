@@ -110,7 +110,7 @@ ul, ol {
     gap: 24px;
 }
 .section-features-list-item {
-    width: calc((100%-72px) /4);
+    width: calc((100% - 72px) /4);
 }
 .section-features-list-item-title {
         font-size: 20px;
@@ -128,7 +128,7 @@ ul, ol {
 .section-team-list {
     display: flex;
     gap: 24px;
-    width: calc(100%-72px) /4;
+    width: calc((100% - 72px) /4);
 }
 .section-team-list-item-title {
         font-size: 20px;
@@ -200,7 +200,6 @@ ul, ol {
     width: 115px;
     height: 24px;
     margin-right: 76px;
-    margin-left: 156px;
 }
 .header-navigation-link {
     font-size: 16px;
